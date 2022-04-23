@@ -1,0 +1,115 @@
+/*defualt styles*/
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Archivo', sans-serif;
+    color: #00447a;
+}
+
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+#logInfo a{
+    color: #ff726f;
+}
+
+#warning{
+    color: red;
+    margin: 30px;
+}
+nav{
+    width: 100%;
+}
+#spacer{
+    padding: 10px;
+    height: 40px;
+    background-color: #00447a;
+    color: white;
+}
+/*login styles*/
+#logInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 20px;
+    color: white;
+}
+#loginButton input[type=submit]{
+    border-radius: 15px;
+    background-color:  #00447a;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    width: 15%;
+    text-align: center;
+    height: 30px;
+
+}
+#logInBoxHeader{
+    text-align: center;
+    padding: 30px;
+    border-bottom: 2px solid #00447a;
+    background-color: #00447a;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    color: white;
+}
+#logInBox{
+    width: 80%;
+    margin: 50px auto;
+    border: 2px solid #00447a;
+    border-radius: 20px;
+}
+#logInBox input[type=text], [type=password]{
+    border: 1px solid #00447a;
+    height: 20px;
+    width: 40%;
+    padding: 5px;
+}
+#logInBox form{
+    margin: 40px;
+}
+.formInputs{
+    margin: 20px;
+}
+
+/*profile*/
+.notifications{
+    margin-top: 30px;
+
+    height: 200px;
+    overflow: scroll;
+}
+.notifications div{
+    padding: 20px;
+}
+.notifications div:nth-child(even){
+    background-color: #00447a;
+    color: white;
+}
+
+/*timeoff*/
+input[type=date], input[type=time]{
+    margin: 7px;
+    border: 1px solid black;
+}
+#submit input[type=submit]{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #00447a;
+    color: white;
+}
+
+
+footer{
+    background-color: #6D7B8D;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}

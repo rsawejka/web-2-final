@@ -1,0 +1,378 @@
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+th{
+    font-weight: bold;
+}
+#login a{
+    color: white;
+}
+/*login styles*/
+
+
+
+
+
+/*header styles*/
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    background-image: url("../images/logoc.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    max-width: 50px;
+    min-width: 50px;
+    height: 50px;
+    min-height: 50px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+}
+
+nav ul li{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li:hover {
+    animation-name: nava;
+    animation-duration: 1s;
+    background-color: #006abf;
+}
+@keyframes nava{
+    from {background-color: #6D7B8D;}
+    to {background-color: #006abf;}
+}
+nav ul li:hover a{
+    color: white;
+}
+/*schedule styles*/
+#pickUp h3, #trade h3{
+    color: white;
+}
+#scheduleCards{
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-top:15px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.expandedText{
+    display: none;
+}
+.card:hover .expandedText{
+    display: block;
+
+
+}
+.card:hover .expandedText div{
+    margin-top: 8px;
+    padding-left: 6px;
+
+}
+#schedule{
+    margin: 50px;
+    color: rgb(0, 106, 191);
+}
+.card{
+    width: 14%;
+    height: 100px;
+    border: 2px solid #006abf;
+    padding-left: 30px;
+    transition: width 1s, height 2s;
+    padding: 10px;
+    padding-left: 10px;
+    background-color: #00447a;
+    color: white;
+
+}
+.day{
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card:hover{
+    width: 70%;
+    height: 250px;
+}
+.shiftButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+ }
+.shiftButtons a{
+    color: white;
+}
+.shiftButtons a:nth-child(2){
+    margin-right: 20px;
+}
+.shift{
+    padding-left: 6px;
+    padding-top: 10px;
+    width: 100%;
+}
+.punchedHours{
+    padding-left: 6px;
+    padding-top: 9px;
+}
+.totalHours div{
+    margin-bottom: 30px;
+}
+.totalHours{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+#shiftTrading{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-bottom: 30px;
+    width: 100%;
+
+}
+#shiftTrading div{
+    background-color: #00447a;
+    width: 30%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    overflow: scroll;
+    padding: 20px;
+
+}
+#shiftTrading div h3{
+    padding-bottom: 15px;
+}
+
+#tradePickup{
+    padding-left: 50px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    color: rgb(0, 106, 191);
+    width: 40%;
+
+
+}
+table{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr{
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+td{
+    padding: 15px;
+    width: 20%;
+
+}
+td button{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+/*availability styles*/
+#availabilityTables{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+#table1{
+    border-right: 1px solid black;
+    padding-right: 150px;
+}
+
+#availabilityTables table{
+    text-align: left;
+    width: 100%;
+}
+#availabilityTables table th{
+    padding-left: 20px;
+}
+#availabilityTables table tr:nth-child(1){
+    border-bottom: 1px solid black;
+    padding-bottom: 6px;
+}
+#availabilityTables button{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #00447a;
+    color: white;
+    width: 50%;
+    margin-left: 10px;
+}
+#availabilityTables h1{
+    padding: 30px;
+    padding-bottom: 50px;
+}
+#availabilityTables #table2 input[type=text]{
+    width: 30%;
+    border: 1px solid black;
+    margin: 8px;
+}
+#availabilityTables h1{
+    color: #006abf;
+
+}
+/*profile styles*/
+#profileH1{
+    margin: 50px;
+    color: #006abf;
+
+}
+#profile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: rgb(0, 106, 191, .3);
+    border-radius: 15px;
+}
+.pannel{
+    width: 45%;
+    margin: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.pannel h2{
+    color: #006abf;
+}
+.first{
+    margin-top: 30px;
+}
+.info{
+    padding: 20px;
+}
+
+/*timeoff styles*/
+#newTimeOff{
+    background-color: #006abf;
+    padding: 50px;
+    color: white;
+    width: 100%;
+}
+#newTimeOff h2{
+    padding: 25px;
+}
+#newTimeOff div{
+    font-size: .8em;
+
+}
+#newTimeOff div span:nth-child(1){
+    margin-left: 7px;
+}
+#newTimeOff div span:nth-child(2){
+    margin-left: 110px;
+
+}
+#newTimeOff div span:nth-child(3){
+    margin-left: 50px;
+
+}
+#newTimeOff div span:nth-child(4){
+    margin-left: 115px;
+
+}
+
+#timeoff h1{
+    padding: 50px;
+    color: #006abf;
+
+}
+#submit{
+    margin: 20px;
+}
+
+#type{
+    padding: 10px;
+    margin-left: 10px;
+
+}
+select{
+    margin-left: 10px;
+}
+#allTimeOff h2{
+    margin: 50px;
+    color: #006abf;
+
+}
+#white{
+    color: white;
+}
+#allTimeOff table{
+    width: 100%;
+    margin-top: 40px;
+}
+#allTimeOff table tr:nth-child(1){
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+#allTimeOff table tr th{
+    text-align: left;
+    padding-left: 20px;
+}
+#allTimeOff table tr td{
+    text-align: left;
+    padding: 20px;
+
+}
+/*edited punches styles*/
+#editedPunches h1{
+    margin: 50px;
+    color: #006abf;
+
+}
+#editedPunches table{
+    width: 100%;
+    margin-top: 40px;
+}
+#editedPunches table tr:nth-child(1){
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+#editedPunches table tr th{
+    text-align: left;
+    padding-left: 20px;
+}
+#editedPunches table tr td{
+    text-align: left;
+    padding: 20px;
+
+}
+/*footer*/

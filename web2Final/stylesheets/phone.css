@@ -1,0 +1,122 @@
+h1{
+    padding: 20px;
+}
+h2, h3, h4, h5{
+    padding: 30px;
+}
+table tr td{
+    padding: 10px;
+}
+table tr:nth-child(even){
+    background-color: #00447a;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 30px;
+    width: 60%;
+}
+button{
+    border-radius: 15px;
+    background-color:  #00447a;
+    color: white;
+    padding: 20px;
+    font-size: .8em;
+    width: 100%;
+}
+/*header styles*/
+#spacer{
+    background-image: url("../images/logoc.png");
+    background-repeat: no-repeat;
+    height: 50px;
+    padding-top: 10px;
+}
+#logInfo{
+    padding-top: 5px;
+}
+nav ul li{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #00447a;
+}
+
+nav ul li a{
+    color: #00447a;
+}
+#loginButton input[type=submit]{
+    height: 40px;
+    width: 45%;
+    font-size: 1.1em;
+}
+/*schedule body*/
+.card{
+    width: 70%;
+    margin: 50px;
+    border-bottom: 2px solid black;
+}
+.totalHours{
+    margin: 20px;
+}
+.totalHours div{
+    padding-bottom: 8px;
+}
+.card div{
+    padding: 10px;
+    text-align: left;
+}
+.day {
+    font-size: 2em;
+}
+.shift{
+    margin-left: 10px;
+}
+.punchedHours{
+    background-color: #006abf;
+    margin-top: 7px;
+    color: white;
+}
+.shiftButtons a{
+    border-radius: 15px;
+    background-color:  #00447a;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+.text{display: none}
+.shiftButtons a:nth-child(2){
+    margin-left: 40px;
+
+}
+#table2 tr:nth-child(odd) input[type=text]{
+    border: 1px solid black;
+}
+
+/*profile*/
+.pannel{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.pannel div{
+    padding-top: 10px;
+}
+.notifications{
+    width: 70%;
+}
+/*time off*/
+#newTimeOff{
+    margin-left: 40px;
+}
+#submit{
+    margin-top: 10px;
+}
+#type{
+    margin-top: 8px;
+}
+
+/*edited punches*/
+#editedPunches table tr th{
+    padding: 5px;
+}
+.link a{
+    color: white;
+}
